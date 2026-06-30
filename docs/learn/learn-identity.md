@@ -3,9 +3,6 @@ title: Account Identity
 description: Learn about on-chain identity, judgements, registrars, and how to manage your identity on Polkadot.
 ---
 
-!!!info "Setting your identity on Polkassembly"
-    You can set your identity using the Polkassembly dApp. Follow [these support guides](https://support.polkadot.network/support/solutions/articles/65000187627-how-to-set-your-on-chain-identity-on-polkassembly).
-
 Polkadot provides a naming system that allows participants to add personal information to their
 on-chain account and subsequently ask for verification of this information by
 [registrars](#registrars).
@@ -68,7 +65,7 @@ There are multiple registrars on Polkadot and Kusama. Unless no additional infor
 here, you must reach out to specific registrars individually if you want to be judged by those.
 
 !!!info "Decommissioned Registrar Service"
-    From the 1st of April 2024 onwards, **Registrar 0** will still exist on-chain but will not accept any new judgment requests. The registrar fee is set to a substantial amount to dissuade identity judgement requests. From January 2026 onwards, **Registrar 2** will also not accept new judgement requests. Identities judged by the registrar before that date will not be affected. For new identity judgment, please use the other registrars.
+    Registrars shown as struck through in the list below are decommissioned and no longer accept new judgment requests. Existing judgments issued by those registrars remain unaffected. For new identity judgments, please use one of the active registrars.
 
 === "Polkadot"
 
@@ -81,15 +78,14 @@ here, you must reach out to specific registrars individually if you want to be j
     ~~Registrar 2~~: <br /> **Account**: ~~1EpXirnoTimS1SWq52BeYx7sitsusXNGzMyGx8WPujPd1HB~~ <br />
     **Fee**: ~~0 DOT~~ <br />
 
-    Registrar 3: <br /> **Account**: 13SceNt2ELz3ti4rnQbY1snpYH4XE4fLFsW8ph9rpwJd6HFC <br /> **Fee**:
-    0.5 DOT <br /> Polkassembly (Registrar 3) provides setting on-chain ID as a service on their
-    [website](https://polkadot.polkassembly.io/).
+    ~~Registrar 3~~: <br /> **Account**: ~~13SceNt2ELz3ti4rnQbY1snpYH4XE4fLFsW8ph9rpwJd6HFC~~ <br /> **Fee**:
+    ~~0.5 DOT~~ <br />
 
     ~~Registrar 4~~: <br /> **URL**: ~~https://polkaidentity.com/~~ <br /> **Account**:
     ~~16LYBUcQKWZjAYE4oAPWx9XFaEYnCAffwpPuPWrUvU1mqBZT~~ <br /> **Fee**: ~~0.5 DOT~~ <br />
 
     Registrar 5: <br /> **URL**: https://dotid.app <br /> **Account**:
-    12gL6BDsAMQCij7Ni5CxeN3J9VYwsKAUgbSLxAMbceCkxqv1 <br /> **Fee**: 0 DOT <br /> ECH0.RE
+    12gL6BDsAMQCij7Ni5CxeN3J9VYwsKAUgbSLxAMbceCkxqv1 <br /> **Fee**: 0 DOT <br /> dotID
     (Registrar 5) provides setting on-chain ID as a service on their
     [website](https://dotid.app).
 
@@ -105,21 +101,19 @@ here, you must reach out to specific registrars individually if you want to be j
     ~~EK8veMNH6sVtvhSRo4q1ZRh6huCDm69gxK4eN5MFoZzo3G7~~ <br /> **Fee**: ~~1 KSM~~ <br />
 
     Registrar 3: <br /> **Account**: GLiebiQp5f6G5vNcc7BgRE9T3hrZSYDwP6evERn3hEczdaM <br /> **Fee**: 1
-    KSM <br /> Polkassembly (Registrar 3) provides setting on-chain ID as a service on their
-    [website](https://kusama.polkassembly.io/).
+    KSM <br />
 
     Registrar 4: <br /> **Account**: GhmpzxUyTVsFJhV7s2wNvD8v3Bgikb6WvYjj4QSuSScAUw6 <br /> **Fee**:
     0.04 KSM <br />
 
-    Registrar 5: <br /> **Account**: F1wAMxpzvjWCpsnbUMamgKfqFM7LRvNdkcQ44STkeVbemEZ <br /> **Fee**:
-    0.04 KSM <br /> Polkassembly (Registrar 5) provides setting on-chain ID as a service on their
-    [website](https://kusama.polkassembly.io/).
+    ~~Registrar 5~~: <br /> **Account**: ~~F1wAMxpzvjWCpsnbUMamgKfqFM7LRvNdkcQ44STkeVbemEZ~~ <br /> **Fee**:
+    ~~0.04 KSM~~ <br />
 
     ~~Registrar 6~~: <br /> **URL**: ~~https://polkaidentity.com/~~ <br /> **Account**:
     ~~HurhThD66KBUf2zcE9Zhx46sCqNJXviKhWAct95rBCkPuix~~ <br /> **Fee**: ~~0.04 KSM~~ <br />
 
     Registrar 7: <br /> **URL**: https://dotid.app <br /> **Account**:
-    EFecAJfvw9f2qvJX8y1QAa9STqXygRX4UYcBXeCYMPjXZ45 <br /> **Fee**: 0 KSM <br /> ECH0.RE
+    EFecAJfvw9f2qvJX8y1QAa9STqXygRX4UYcBXeCYMPjXZ45 <br /> **Fee**: 0 KSM <br /> dotID
     (Registrar 7) provides setting on-chain ID as a service on their
     [website](https://dotid.app).
 
